@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "extractedAt": "2026-05-13T14:35:38.816Z",
+    "figmaFile": "linked-promo.com",
+    "pageName": "PPC Landing v2",
+    "rootNodeId": "62:609",
+    "rootNodeName": "Final CTA (Light)",
+    "extractorVersion": "0.1.0-decorative-skip"
+  },
+  "tree": {
+    "id": "62:609",
+    "name": "Final CTA (Light)",
+    "type": "FRAME",
+    "bounds": { "x": 0, "y": 11568, "w": 1440, "h": 680 },
+    "fills": [{ "type": "SOLID", "color": "#F5F6FA" }],
+    "layout": { "mode": "NONE" },
+    "children": [
+      {
+        "id": "62:610",
+        "name": "Top accent line",
+        "type": "RECTANGLE",
+        "bounds": { "x": 0, "y": 0, "w": 1440, "h": 1 },
+        "fills": [{ "type": "SOLID", "color": "#2134EA", "opacity": 0.15 }]
+      },
+      {
+        "id": "62:611",
+        "name": "Glow ellipse top-left",
+        "type": "ELLIPSE",
+        "decorative": true,
+        "exportHint": "background-image"
+      },
+      "...LEFT COLUMN (x=120-700)...",
+      {
+        "id": "62:612",
+        "name": "ЗАПУСК ЗА 14 ДНІВ",
+        "type": "TEXT",
+        "bounds": { "x": 120, "y": 120, "w": 580 },
+        "text": { "characters": "ЗАПУСК ЗА 14 ДНІВ", "fontFamily": "Manrope", "fontStyle": "SemiBold", "fontSize": 12, "letterSpacing": { "value": 14 }, "fills_color": "#2134EA" }
+      },
+      {
+        "id": "62:613",
+        "name": "Headline",
+        "type": "TEXT",
+        "bounds": { "x": 120, "y": 152, "w": 580, "h": 112 },
+        "text": { "characters": "Стратегія - за 3-5 днів.\nПерші ліди - за 14 днів.", "fontFamily": "Manrope", "fontStyle": "Bold", "fontSize": 48, "lineHeight": 56, "color": "#0D0D26" }
+      },
+      {
+        "id": "62:614",
+        "name": "Body",
+        "type": "TEXT",
+        "text": { "characters": "Залиште заявку. За 2 години звʼяжемося, проведемо 30-хв дзвінок та покажемо стратегію під ваш ICP.", "fontFamily": "Manrope", "fontStyle": "Regular", "fontSize": 17, "lineHeight": 28, "color": "#6C7080" }
+      },
+      "...3 benefit rows (check icon + text)...",
+      { "id": "62:618", "name": "Benefit 1", "text": "Безкоштовний аудит поточних кампаній" },
+      { "id": "62:622", "name": "Benefit 2", "text": "Прогноз CPL і CAC під ваш ICP" },
+      { "id": "62:626", "name": "Benefit 3", "text": "Стратегія залишається вам - без зобовʼязань" },
+      "...RIGHT COLUMN: Form Card (x=740-1320, white bg, drop shadow)...",
+      {
+        "id": "62:627",
+        "name": "Form Card",
+        "type": "FRAME",
+        "bounds": { "x": 740, "y": 80, "w": 580, "h": 520 },
+        "fills": [{ "type": "SOLID", "color": "#FFFFFF" }],
+        "cornerRadius": 20,
+        "effects": [{ "type": "DROP_SHADOW", "color": "#0D1226", "alpha": 0.08, "offset": { "x": 0, "y": 16 }, "radius": 48 }],
+        "children": [
+          { "id": "62:628", "name": "Form title", "text": "Залиште заявку", "fontStyle": "Bold", "fontSize": 26 },
+          { "id": "62:629", "name": "Form sub", "text": "Відповімо протягом 2 годин у робочий час", "fontSize": 14, "color": "#6C7080" },
+          "...4 form fields (each: rectangle 52h + icon + placeholder text)...",
+          { "id": "62:630-634", "name": "Field: Ваше імʼя", "placeholder": "Ваше імʼя" },
+          { "id": "62:635-639", "name": "Field: Робочий email", "placeholder": "Робочий email" },
+          { "id": "62:640-643", "name": "Field: Телефон (необовʼязково)", "placeholder": "Телефон (необовʼязково)" },
+          { "id": "62:644-647", "name": "Field: Коротко про задачу", "placeholder": "Коротко про задачу" },
+          { "id": "62:648", "name": "Submit button bg", "fills": [{ "color": "#2134EA" }], "cornerRadius": 12 },
+          { "id": "62:649", "name": "Submit button text", "text": "Отримати стратегію →" },
+          { "id": "62:650", "name": "Disclaimer", "text": "Без спаму. Один дзвінок і конкретний план.", "fontSize": 12, "color": "#6C7080" }
+        ]
+      }
+    ]
+  }
+}
