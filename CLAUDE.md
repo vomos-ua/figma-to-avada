@@ -18,6 +18,7 @@ Internal LP tool: Figma → Avada Fusion Builder shortcodes.
 6. **NO HTML comments between shortcode tags.** Avada parser rejects them.
 7. **`[fusion_text]` content wrapped in `<p>` inline.** `[fusion_title]` content inline without `<p>`. No newlines inside tags.
 8. **Every column needs `first="true"` (leftmost) and `last="true"` (rightmost).** Missing flags break Avada flex layout. Single-column rows = both flags `true` on same column.
+9. **NEVER use non-numeric placeholders for `form_post_id`.** Strings like `{{FORM_POST_ID}}` or `REPLACE_ME` cause Avada Builder to hang/freeze the editor. Use **`form_post_id="0"`** as the safe placeholder — Avada won't find form #0, won't render the form, but the page stays editable. Володимир replaces with real ID after creating the form in `Avada → Forms`. **Burned us in Phase 3 Light CTA test — never again.**
 
 ## Pipeline overview
 

@@ -1,3 +1,9 @@
+---
+title: wp-mcp-live-test
+type: note
+permalink: ai/figma-to-avada/docs/wp-mcp-live-test
+---
+
 # WP MCP live test — findings
 
 **Date:** 2026-05-13

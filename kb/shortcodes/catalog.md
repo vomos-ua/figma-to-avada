@@ -1,3 +1,9 @@
+---
+title: catalog
+type: note
+permalink: ai/figma-to-avada/kb/shortcodes/catalog
+---
+
 # Avada shortcode catalog
 
 Generated from 160 PHP files.
@@ -174,4 +180,3 @@ Generated from 160 PHP files.
 | `[fusion_fusionslider]` | `fusion-fusionslider.php` | 0 |
 | `[fusion_portfolio]` | `fusion-portfolio.php` | 12 |
 | `[fusion_privacy]` | `fusion-privacy.php` | 69 |
-

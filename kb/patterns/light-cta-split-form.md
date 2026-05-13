@@ -62,7 +62,7 @@ Note on `[fusion_li_item icon="fa-check"]`: the `icon` param takes a FontAwesome
 
 [fusion_text font_size="14px" line_height="20px" text_color="#6C7080" content_alignment="left" margin_bottom="24px" fusion_font_family_text_font="Manrope" fusion_font_variant_text_font="400"]<p>Відповімо протягом 2 годин у робочий час</p>[/fusion_text]
 
-[fusion_form form_post_id="{{FORM_POST_ID}}" margin_bottom="0"]
+[fusion_form form_post_id="0" margin_bottom="0"]
   [fusion_form_text name="full_name" label="" placeholder="Ваше імʼя" required="yes" input_field_icon="fa-user" /]
   [fusion_form_email name="email" label="" placeholder="Робочий email" required="yes" input_field_icon="fa-envelope" /]
   [fusion_form_phone_number name="phone" label="" placeholder="Телефон (необовʼязково)" required="no" input_field_icon="fa-phone" /]
@@ -72,6 +72,12 @@ Note on `[fusion_li_item icon="fa-check"]`: the `icon` param takes a FontAwesome
 
 [fusion_text font_size="12px" line_height="16px" text_color="#6C7080" content_alignment="center" margin_top="16px" margin_bottom="0" fusion_font_family_text_font="Manrope" fusion_font_variant_text_font="400"]<p>Без спаму. Один дзвінок і конкретний план.</p>[/fusion_text]
 ```
+
+## ⚠️ Critical: form_post_id placeholder rule (learned in Phase 3 Light CTA test)
+
+**NEVER use string placeholders like `{{FORM_POST_ID}}` for the `form_post_id` attribute.** Avada Builder tries to parse it as integer and **hangs the editor**. The whole page becomes unresponsive — Володимир had to recover via browser refresh.
+
+**Safe approach:** generate with `form_post_id="0"`. Avada won't find form ID 0 → renders nothing where the form would be, but the page stays fully editable. Replace `0` with the real form ID **after creating the form** (see steps below).
 
 ## Form setup steps for Володимир (manual, one-time per page)
 
