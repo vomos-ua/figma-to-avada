@@ -148,3 +148,26 @@ Figma `fontStyle` → Avada `font_variant`:
 | `Bold` | `700` |
 | `ExtraBold` | `800` |
 | `Black` | `900` |
+
+## Iconography: chevron, not check-mark
+
+LP brand uses the chevron `›` (FontAwesome `fa-chevron-right`) as the universal bullet/marker. This carries the brand motif from:
+
+- Background chevron pattern in dark sections (low-opacity tile)
+- Case study eyebrow separators ("КЕЙС · B2B · CREATIVE EVENTS")
+- Hover transitions on cards and links
+- All bullet lists, benefit lists, navigational separators
+
+**Anti-pattern:** generic check-mark `✓` icons inside filled blue circles. This is "SaaS-app generic" aesthetic, not LP. Avoid `[fusion_li_item icon="fa-check"]` with `circle="yes"` wrapping.
+
+**Correct pattern for benefit / feature lists:**
+
+```text
+[fusion_checklist iconcolor="#2134EA" circle="no" size="14"]
+  [fusion_li_item icon="fa-chevron-right fas"]Benefit text[/fusion_li_item]
+[/fusion_checklist]
+```
+
+The chevron renders in LP-blue, no surrounding shape. Same visual language as the chevron BG pattern.
+
+Burned us in Phase 3 Light CTA test — first version used `fa-check` with blue circle. Volodymyr manually replaced with chevrons on live site. Now codified for all future patterns.

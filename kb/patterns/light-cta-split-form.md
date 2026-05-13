@@ -46,14 +46,16 @@ Generator detects this pattern when brief matches:
 
 [fusion_separator style_type="none" hide_on_mobile="small-visibility,medium-visibility,large-visibility" sep_color="" top_margin="32" bottom_margin="0" border_size="" icon="" alignment="center"][/fusion_separator]
 
-[fusion_checklist iconcolor="#FFFFFF" circle="yes" circlecolor="#2134EA" size="16" item_padding="0px 0px 12px 0px" hide_on_mobile="small-visibility,medium-visibility,large-visibility"]
-  [fusion_li_item icon="fa-check"]BENEFIT 1[/fusion_li_item]
-  [fusion_li_item icon="fa-check"]BENEFIT 2[/fusion_li_item]
-  [fusion_li_item icon="fa-check"]BENEFIT 3[/fusion_li_item]
+[fusion_checklist iconcolor="#2134EA" circle="no" size="14" item_padding="0px 0px 12px 0px" hide_on_mobile="small-visibility,medium-visibility,large-visibility"]
+  [fusion_li_item icon="fa-chevron-right fas"]BENEFIT 1[/fusion_li_item]
+  [fusion_li_item icon="fa-chevron-right fas"]BENEFIT 2[/fusion_li_item]
+  [fusion_li_item icon="fa-chevron-right fas"]BENEFIT 3[/fusion_li_item]
 [/fusion_checklist]
 ```
 
-Note on `[fusion_li_item icon="fa-check"]`: the `icon` param takes a FontAwesome class name. `fa-check` is the simple checkmark. To get the LP blue-filled circle with white check, the wrapping `[fusion_checklist]` provides the circle (`circle="yes" circlecolor="#2134EA" iconcolor="#FFFFFF"`).
+Note on `[fusion_li_item icon="fa-chevron-right fas"]`: the `icon` param takes a FontAwesome class name. **LP brand uses chevron-right `›` as the bullet marker** (NOT a check-mark) — this matches the chevron pattern motif present in all dark sections, case eyebrows, and brand decoration. The wrapping `[fusion_checklist circle="no" iconcolor="#2134EA"]` renders the chevron in LP-blue, no surrounding circle.
+
+Avoid `fa-check` with circle background — that's generic SaaS-app aesthetic, not LP brand.
 
 ## Right column content (Avada Form)
 
