@@ -1,0 +1,13 @@
+{
+  "name": "figma-to-avada",
+  "version": "0.0.1",
+  "description": "LP internal tool: Figma to Avada Fusion Builder shortcodes via Bridge MCP",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test-extract": "echo 'Run via Claude Code with figma-console MCP'"
+  },
+  "dependencies": {
+    "sharp": "^0.33.5"
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "meta": {
+    "extractedAt": "2026-05-13T13:26:22.183Z",
+    "figmaFile": "linked-promo.com",
+    "pageName": "PPC Landing v2",
+    "rootNodeId": "62:2",
+    "rootNodeName": "FAQ",
+    "extractorVersion": "0.1.0-decorative-skip"
+  },
+  "tree": {
+    "id": "62:2",
+    "name": "FAQ",
+    "type": "FRAME",
+    "visible": true,
+    "bounds": { "x": 0, "y": 10528, "w": 1440, "h": 1040 },
+    "opacity": 1,
+    "cornerRadius": 0,
+    "fills": [{ "type": "SOLID", "opacity": 1, "color": "#0D0D26" }],
+    "layout": { "mode": "NONE" },
+    "children": [
+      {
+        "id": "62:3",
+        "name": "Ellipse",
+        "type": "ELLIPSE",
+        "visible": true,
+        "bounds": { "x": -200, "y": -300, "w": 900, "h": 700 },
+        "opacity": 1,
+        "cornerRadius": 0,
+        "fills": [{
+          "type": "GRADIENT_RADIAL",
+          "opacity": 1,
+          "stops": [
+            { "position": 0, "color": "#2134EA", "alpha": 0.18 },
+            { "position": 1, "color": "#2134EA", "alpha": 0 }
+          ]
+        }],
+        "decorative": true,
+        "exportHint": "background-image"
+      },
+      {
+        "id": "62:4",
+        "name": "Ellipse",
+        "type": "ELLIPSE",
+        "visible": true,
+        "bounds": { "x": 940, "y": 650, "w": 800, "h": 600 },
+        "opacity": 1,
+        "cornerRadius": 0,
+        "fills": [{
+          "type": "GRADIENT_RADIAL",
+          "opacity": 1,
+          "stops": [
+            { "position": 0, "color": "#2134EA", "alpha": 0.12 },
+            { "position": 1, "color": "#2134EA", "alpha": 0 }
+          ]
+        }],
+        "decorative": true,
+        "exportHint": "background-image"
+      },
+      {
+        "id": "62:5",
+        "name": "Chevron Pattern",
+        "type": "FRAME",
+        "visible": true,
+        "bounds": { "x": 0, "y": 0, "w": 1440, "h": 1040 },
+        "opacity": 0.04,
+        "cornerRadius": 0,
+        "fills": [],
+        "decorative": true,
+        "exportHint": "background-image"
+      },
+      {
+        "id": "62:582",
+        "name": "ЧАСТІ ПИТАННЯ",
+        "type": "TEXT",
+        "visible": true,
+        "bounds": { "x": 120, "y": 100, "w": 1200, "h": 16 },
+        "opacity": 1,
+        "fills": [{ "type": "SOLID", "opacity": 1, "color": "#2134EA" }],
+        "text": {
+          "characters": "ЧАСТІ ПИТАННЯ",
+          "fontFamily": "Manrope",
+          "fontStyle": "SemiBold",
+          "fontSize": 12,
+          "lineHeight": { "unit": "AUTO" },
+          "letterSpacing": { "unit": "PERCENT", "value": 12 },
+          "textAlignH": "CENTER",
+          "textAlignV": "TOP",
+          "textCase": "ORIGINAL",
+          "textDecoration": "NONE"
+        }
+      },
+      {
+        "id": "62:583",
+        "name": "Що варто знати перед стартом",
+        "type": "TEXT",
+        "visible": true,
+        "bounds": { "x": 120, "y": 130, "w": 1200, "h": 58 },
+        "opacity": 1,
+        "fills": [{ "type": "SOLID", "opacity": 1, "color": "#FFFFFF" }],
+        "text": {
+          "characters": "Що варто знати перед стартом",
+          "fontFamily": "Manrope",
+          "fontStyle": "Bold",
+          "fontSize": 48,
+          "lineHeight": { "unit": "PIXELS", "value": 58 },
+          "letterSpacing": { "unit": "PERCENT", "value": 0 },
+          "textAlignH": "CENTER",
+          "textAlignV": "TOP",
+          "textCase": "ORIGINAL",
+          "textDecoration": "NONE"
+        }
+      },
+      {
+        "id": "62:584",
+        "name": "Sub-headline",
+        "type": "TEXT",
+        "visible": true,
+        "bounds": { "x": 320, "y": 200, "w": 800, "h": 28 },
+        "opacity": 0.6,
+        "fills": [{ "type": "SOLID", "opacity": 1, "color": "#FFFFFF" }],
+        "text": {
+          "characters": "Відповіді на типові питання - без юридичної води і маркетингового жаргону.",
+          "fontFamily": "Manrope",
+          "fontStyle": "Regular",
+          "fontSize": 18,
+          "lineHeight": { "unit": "PIXELS", "value": 28 },
+          "letterSpacing": { "unit": "PERCENT", "value": 0 },
+          "textAlignH": "CENTER",
+          "textAlignV": "TOP",
+          "textCase": "ORIGINAL",
+          "textDecoration": "NONE"
+        }
+      },
+      "...(6 FAQ cards omitted for example brevity, each with 3 texts: number + question + answer)..."
+    ]
+  }
+}
