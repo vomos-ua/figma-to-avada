@@ -8,6 +8,30 @@ permalink: ai/figma-to-avada/kb/patterns/faq-grid-2x3
 
 Always-visible FAQ cards in a 2-column × 3-row grid on dark navy background. No accordion — cards visible all at once for scannability.
 
+## ⚠️ Critical Avada rule (learned from Phase 3 test)
+
+**ONE container = ONE row. Multiple `fusion_builder_row` inside one container are FLATTENED into a single visual row.**
+
+For our 2×3 grid this means **4 separate containers**, not 1 container with 4 rows:
+
+```
+Container 1 (header)        ← row of 1 column (1/1)
+Container 2 (row 1 of cards) ← row of 2 columns (1/2 + 1/2)
+Container 3 (row 2 of cards) ← row of 2 columns (1/2 + 1/2)
+Container 4 (row 3 of cards) ← row of 2 columns (1/2 + 1/2)
+```
+
+All 4 containers share the same `background_color="#0D0D26"` and side padding, but vertical padding is split:
+
+| Container | `padding_top` | `padding_bottom` |
+|---|---|---|
+| 1 (header) | `100px` | `40px` |
+| 2 (cards 1-2) | `0` | `24px` |
+| 3 (cards 3-4) | `0` | `24px` |
+| 4 (cards 5-6) | `0` | `100px` |
+
+Otherwise stacked containers create visible gaps between them.
+
 ## Figma signature
 
 Generator detects this pattern when brief matches:
@@ -20,27 +44,38 @@ Generator detects this pattern when brief matches:
 
 ## Avada shortcode template
 
+See `examples/faq-block.shortcode.txt` for the complete working version. Structural skeleton:
+
 ```text
-[fusion_builder_container type="flex" hundred_percent="no" hundred_percent_height="no" flex_align_items="flex-start" flex_justify_content="flex-start" hide_on_mobile="small-visibility,medium-visibility,large-visibility" background_color="#0D0D26" background_image="{{glow_bg_url}}" background_repeat="no-repeat" background_size="cover" padding_top="100px" padding_bottom="100px" padding_left="120px" padding_right="120px"]
+[fusion_builder_container background_color="#0D0D26" padding_top="100px" padding_bottom="40px" padding_left="120px" padding_right="120px"]
   [fusion_builder_row]
-
-    [fusion_builder_column type="1_1" type_small="1_1" layout="1_1" first="true" last="true" align_self="auto" padding_bottom="60px"]
-      [fusion_title size="6" font_size="12px" line_height="auto" text_transform="uppercase" letter_spacing="0.12em" text_color="#2134EA" content_align="center" style_type="default" sep_color="" margin_bottom="16px"]{{EYEBROW}}[/fusion_title]
-      [fusion_title size="2" font_size="48px" line_height="58px" text_color="#FFFFFF" content_align="center" style_type="default" sep_color="" margin_bottom="20px"]{{HEADLINE}}[/fusion_title]
-      [fusion_text font_size="18px" line_height="28px" text_color="rgba(255,255,255,0.6)" content_alignment="center"]<p>{{SUB_HEADLINE}}</p>[/fusion_text]
+    [fusion_builder_column type="1_1" first="true" last="true"]
+      EYEBROW + HEADLINE + SUB
     [/fusion_builder_column]
-
-    {{#each FAQ_CARDS}}
-    [fusion_builder_column type="1_2" type_small="1_1" layout="1_2" first="{{first}}" last="{{last}}" align_self="auto" background_color="rgba(255,255,255,0.04)" border_color="rgba(255,255,255,0.08)" border_style="solid" border_top="1px" border_right="1px" border_bottom="1px" border_left="1px" border_radius_top_left="16px" border_radius_top_right="16px" border_radius_bottom_left="16px" border_radius_bottom_right="16px" padding_top="32px" padding_right="32px" padding_bottom="32px" padding_left="32px" spacing_left="" spacing_right="16px" margin_bottom="24px"]
-      [fusion_title size="6" font_size="14px" line_height="auto" letter_spacing="0.08em" text_color="#2134EA" content_align="left" style_type="default" sep_color="" margin_bottom="8px"]{{NUMBER}}[/fusion_title]
-      [fusion_title size="3" font_size="20px" line_height="28px" text_color="#FFFFFF" content_align="left" style_type="default" sep_color="" margin_bottom="12px"]{{QUESTION}}[/fusion_title]
-      [fusion_text font_size="14px" line_height="22px" text_color="rgba(255,255,255,0.6)" content_alignment="left"]<p>{{ANSWER}}</p>[/fusion_text]
-    [/fusion_builder_column]
-    {{/each}}
-
   [/fusion_builder_row]
 [/fusion_builder_container]
+
+[fusion_builder_container background_color="#0D0D26" padding_top="0" padding_bottom="24px" padding_left="120px" padding_right="120px" flex_align_items="stretch"]
+  [fusion_builder_row]
+    [fusion_builder_column type="1_2" first="true" last="false" spacing_right="16px"]
+      CARD 01 (number + question + answer)
+    [/fusion_builder_column]
+    [fusion_builder_column type="1_2" first="false" last="true"]
+      CARD 02
+    [/fusion_builder_column]
+  [/fusion_builder_row]
+[/fusion_builder_container]
+
+... (containers 3 + 4 same shape, with cards 03/04 and 05/06)
+
+Final container has padding_bottom="100px" to close the section.
 ```
+
+Key details:
+
+- **`flex_align_items="stretch"`** on card containers → both cards in a row equal height when their content lengths differ
+- **`spacing_right="16px"`** on first column of each card row → 16px gap between the two cards
+- **`type_small="1_1"`** on every card column → stack 1 per row on mobile
 
 ## Variable substitution from brief
 
@@ -50,50 +85,22 @@ Generator detects this pattern when brief matches:
 | `{{EYEBROW}}` | First TEXT child whose `text.textCase === 'ORIGINAL'` AND `fontSize <= 14` AND `letterSpacing.value >= 10` |
 | `{{HEADLINE}}` | TEXT child with largest `fontSize` in the header region (y < 250) |
 | `{{SUB_HEADLINE}}` | TEXT child below headline, font 16-18px, gray color |
-| FAQ_CARDS | Each child frame named `FAQ NN` |
+| FAQ_CARDS[0..5] | Each child frame named `FAQ NN`, in order |
 | `{{NUMBER}}` | First TEXT in card (small SemiBold, BLUE) |
 | `{{QUESTION}}` | Second TEXT in card (20px SemiBold, WHITE) |
 | `{{ANSWER}}` | Third TEXT in card (14px Regular, muted WHITE) |
-| `first` / `last` | `"true"` for cards 1 and 6, `"false"` otherwise (but **NOT** based on row position — Avada flex rows handle wrapping. For 2-col layout, first/last per row would require splitting into 3 separate `fusion_builder_row` blocks.) |
-
-## Important: 2-col grid in Avada
-
-Avada doesn't auto-wrap columns. For a 2×3 grid you have two options:
-
-**Option A — 3 separate rows (recommended for cards with different heights):**
-
-```text
-[fusion_builder_row]
-  [column 1_2 first=true]Card 1[/column]
-  [column 1_2 last=true]Card 2[/column]
-[/fusion_builder_row]
-[fusion_builder_row]
-  [column 1_2 first=true]Card 3[/column]
-  [column 1_2 last=true]Card 4[/column]
-[/fusion_builder_row]
-[fusion_builder_row]
-  [column 1_2 first=true]Card 5[/column]
-  [column 1_2 last=true]Card 6[/column]
-[/fusion_builder_row]
-```
-
-But you need ONE container — that means 3 rows inside one container. **Avada allows multiple rows per container.**
-
-**Option B — single row with 6 columns of `type="1_2"`:**
-
-Avada will visually wrap them every 2 columns based on width. This works for equal-height cards. But explicit Option A is cleaner.
-
-For our FAQ generator: use Option A — 3 rows inside one container.
 
 ## Decorative elements
 
-Glow ellipses and chevron pattern from Figma → emit as `background_image` on the container. The brief includes them as `decorative: true` children. Generator:
+Glow ellipses and chevron pattern from Figma → emit as `background_image` on container 1 (header). The brief includes them as `decorative: true` children. Generator:
 
 1. If multiple decoratives, composite into single background PNG via image step
-2. Otherwise emit single `background_image="https://..."` 
+2. Add `background_image="https://..."` + `background_repeat="no-repeat"` + `background_size="cover"` to container 1
 3. Володимир uploads the composite image, provides URL in `image-urls.json`
 
-If decoratives are too complex to composite cleanly — fall back to plain solid `background_color` and add brand chevron via child theme CSS class.
+For repeating decorative across all 4 containers: cleaner to use `background_position` math per container, or fall back to a child theme CSS class that paints the decorative across the whole section.
+
+For our PPC Landing FAQ specifically: chevron pattern spans the FULL block (1040px height). To preserve this look across 4 containers, the cleanest is a `.lp-faq-decorative` body class set via Avada page settings + child theme CSS that paints the SVG pattern as `body.page-id-NNN .lp-faq` background. Outside of MVP scope — leave plain navy for v1.
 
 ## LP variants
 
@@ -102,4 +109,19 @@ If decoratives are too complex to composite cleanly — fall back to plain solid
 
 ## Mobile (responsive)
 
-`type_small="1_1"` on all FAQ cards → stack 1 per row on mobile. Padding reduces via `padding_*_small` if needed (default LP: keep card padding `32px`, container padding small `40px 20px`).
+`type_small="1_1"` on all FAQ cards → stack 1 per row on mobile. Containers padding `_small` variants:
+
+```
+padding_top_small="60px"      # first container
+padding_bottom_small="60px"   # last container
+padding_left_small="20px"
+padding_right_small="20px"
+```
+
+## Anti-patterns (do NOT generate)
+
+❌ Multiple `[fusion_builder_row]` inside one `[fusion_builder_container]` — Avada flattens them. This was the bug in v1.
+
+❌ Using `[fusion_accordion]` + `[fusion_toggle]` for FAQ when source design has always-visible cards. Toggle is collapse-by-default — different UX.
+
+❌ Hardcoded inline styles via `style=""` attribute. Use Avada-native params or child theme CSS classes.

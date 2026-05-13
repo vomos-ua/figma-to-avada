@@ -10,12 +10,14 @@ Internal LP tool: Figma → Avada Fusion Builder shortcodes.
 
 ## Critical rules
 
-1. **NO Figma Personal Access Token.** Use figma-console MCP exclusively. Bridge plugin must be active.
-2. **NO automatic WordPress upload.** User uploads images manually, returns URLs, we substitute.
-3. **NO em-dashes in generated shortcodes.** Avada Code View handles them poorly. Use `-` only.
-4. **animation_delay in SECONDS DECIMAL.** `animation_delay="0.2"` = 200ms. NOT `"200"` (= 200 seconds!).
-5. **NO HTML comments between shortcode tags.** Avada parser rejects them.
-6. **`[fusion_text]` content wrapped in `<p>` inline.** `[fusion_title]` content inline without `<p>`. No newlines inside tags.
+1. **ONE container = ONE row.** Multiple `[fusion_builder_row]` inside one `[fusion_builder_container]` are silently FLATTENED into a single horizontal row by Avada. For multi-row sections, emit **multiple containers** stacked vertically. Split `padding_top`/`padding_bottom` across them so middle containers don't add double gaps. **This bug burned us once in Phase 3 — never again.**
+2. **NO Figma Personal Access Token.** Use figma-console MCP exclusively. Bridge plugin must be active.
+3. **NO automatic WordPress upload.** User uploads images manually, returns URLs, we substitute.
+4. **NO em-dashes in generated shortcodes.** Avada Code View handles them poorly. Use `-` only.
+5. **animation_delay in SECONDS DECIMAL.** `animation_delay="0.2"` = 200ms. NOT `"200"` (= 200 seconds!).
+6. **NO HTML comments between shortcode tags.** Avada parser rejects them.
+7. **`[fusion_text]` content wrapped in `<p>` inline.** `[fusion_title]` content inline without `<p>`. No newlines inside tags.
+8. **Every column needs `first="true"` (leftmost) and `last="true"` (rightmost).** Missing flags break Avada flex layout. Single-column rows = both flags `true` on same column.
 
 ## Pipeline overview
 
