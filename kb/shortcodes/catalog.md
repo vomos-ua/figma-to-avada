@@ -1,9 +1,3 @@
----
-title: catalog
-type: note
-permalink: ai/figma-to-avada/kb/shortcodes/catalog
----
-
 # Avada shortcode catalog
 
 Generated from 160 PHP files.
@@ -16,7 +10,7 @@ Generated from 160 PHP files.
 | Shortcode | File | Params |
 |---|---|---|
 | *(no name)* | `class-awb-woo-filters.php` | 25 |
-| *(no name)* | `class-fusion-column-element.php` | 188 |
+| *(no name)* | `class-fusion-column-element.php` | 189 |
 | *(no name)* | `class-fusion-row-element.php` | 2 |
 | *(no name)* | `class-fusion-woo-products-component.php` | 22 |
 | *(no name)* | `components/author.php` | 17 |
@@ -82,12 +76,12 @@ Generated from 160 PHP files.
 | `[fusion_breadcrumbs]` | `fusion-breadcrumbs.php` | 28 |
 | `[fusion_builder_column]` | `fusion-column.php` | 0 |
 | `[fusion_builder_column_inner]` | `fusion-column-inner.php` | 0 |
-| `[fusion_builder_container]` | `fusion-container.php` | 185 |
+| `[fusion_builder_container]` | `fusion-container.php` | 186 |
 | `[fusion_builder_form_step]` | `form/fusion-form-step.php` | 1 |
 | `[fusion_builder_inline]` | `fusion-inline.php` | 0 |
 | `[fusion_builder_row]` | `fusion-row.php` | 0 |
 | `[fusion_builder_row_inner]` | `fusion-row-inner.php` | 21 |
-| `[fusion_button]` | `fusion-button.php` | 90 |
+| `[fusion_button]` | `fusion-button.php` | 91 |
 | `[fusion_chart]` | `fusion-chart.php` | 2 |
 | `[fusion_checklist]` | `fusion-checklist.php` | 2 |
 | `[fusion_circles_info]` | `fusion-circles-info.php` | 0 |
@@ -179,4 +173,5 @@ Generated from 160 PHP files.
 | `[fusion_faq]` | `fusion-faq.php` | 21 |
 | `[fusion_fusionslider]` | `fusion-fusionslider.php` | 0 |
 | `[fusion_portfolio]` | `fusion-portfolio.php` | 12 |
-| `[fusion_privacy]` | `fusion-privacy.php` | 10 |
+| `[fusion_privacy]` | `fusion-privacy.php` | 69 |
+
