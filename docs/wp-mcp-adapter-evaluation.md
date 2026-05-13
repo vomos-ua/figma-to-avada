@@ -4,10 +4,18 @@ type: note
 permalink: ai/figma-to-avada/docs/wp-mcp-adapter-evaluation
 ---
 
-# WordPress/mcp-adapter — evaluation
+# WordPress/mcp-adapter — evaluation (first-pass)
 
 **Date:** 2026-05-13
-**Decision:** **NOT adopting** for current pipeline. Use raw WP REST API + Application Passwords instead.
+**Status:** **SUPERSEDED.** See [`wp-mcp-integration-plan.md`](./wp-mcp-integration-plan.md) for the revised plan.
+
+**Original decision:** NOT adopting for current pipeline. Use raw WP REST API + Application Passwords instead.
+
+**Why superseded:** First-pass eval compared empty mcp-adapter vs raw WP REST API. Wrong comparison. The right one is **LP custom ability pack on top of mcp-adapter** vs **raw WP REST API per-project**. With LP's continuous Avada work, writing the ability pack once amortizes across all future client projects. See revised plan for details.
+
+The technical facts below are still accurate. Only the recommendation flipped after reframing the use case.
+
+---
 
 ## Repository
 
