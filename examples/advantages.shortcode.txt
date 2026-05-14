@@ -26,7 +26,7 @@
 [fusion_text font_size="12px" line_height="17px" text_color="#6B6E85" content_alignment="left" fusion_font_family_text_font="Manrope" fusion_font_variant_text_font="400"]<p>Воронка, що ділить аудиторію за діями: час на сайті, кількість візитів, взаємодії - і адаптує рекламу на кожному етапі.</p>[/fusion_text]
 [/fusion_builder_column_inner]
 [fusion_builder_column_inner type="1_2" first="false" last="true" background_color="#F7F7FC" border_radius_top_left="12px" border_radius_top_right="12px" border_radius_bottom_left="12px" border_radius_bottom_right="12px" padding_top="20px" padding_right="20px" padding_bottom="20px" padding_left="20px" animation_type="fade" animation_direction="up" animation_speed="0.3" animation_delay="0.6"]
-[fusion_fontawesome icon="fa-arrows-rotate fas" size="20" iconcolor="#FFFFFF" circle="yes" circlecolor="#2134EA" circlebordercolor="#2134EA" margin_bottom="12px" animation_offset=""][/fusion_fontawesome]
+[fusion_fontawesome icon="fa-sync-alt fas" size="20" iconcolor="#FFFFFF" circle="yes" circlecolor="#2134EA" circlebordercolor="#2134EA" margin_bottom="12px" animation_offset=""][/fusion_fontawesome]
 [fusion_title size="4" font_size="15px" line_height="20px" text_color="#12121A" content_align="left" style_type="default" sep_color="" margin_bottom="6px" fusion_font_family_title_font="Manrope" fusion_font_variant_title_font="600"]Перехресний ремаркетинг[/fusion_title]
 [fusion_text font_size="12px" line_height="17px" text_color="#6B6E85" content_alignment="left" fusion_font_family_text_font="Manrope" fusion_font_variant_text_font="400"]<p>Повторний контакт з аудиторією на META, Google та LinkedIn одночасно - для максимального охоплення та конверсії.</p>[/fusion_text]
 [/fusion_builder_column_inner]
