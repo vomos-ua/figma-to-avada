@@ -1,0 +1,16 @@
+{
+  "node": "17:44",
+  "section": "Hero",
+  "theme": "dark",
+  "container": { "w": 1440, "h": 860, "bg": "#0D0D26" },
+  "decoration": ["Glow", "BrandPattern", "BigChevron", "Dot"],
+  "h1": "Платна реклама для B2B,\nяка приводить справжніх клієнтів.",
+  "h1_fontSize": 72,
+  "subtext": "Налаштовуємо META, Google та LinkedIn - від стратегії до першого ліда.",
+  "ctas": [
+    { "kind": "primary", "text": "Обговорити кампанію →", "url": "#contact" },
+    { "kind": "secondary", "text": "Наші переваги", "url": "#advantages" }
+  ],
+  "dashboardImage": "hero-dashboard.webp",
+  "dashboardSize": "480x420"
+}
