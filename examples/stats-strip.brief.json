@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "extractedAt": "2026-05-14T08:27:44.246Z",
+    "rootNodeId": "17:138",
+    "rootNodeName": "Stats Strip"
+  },
+  "tree": {
+    "id": "17:138",
+    "name": "Stats Strip",
+    "type": "FRAME",
+    "bounds": { "x": 0, "y": 932, "w": 1440, "h": 110 },
+    "fills": [{ "type": "SOLID", "color": "#FFFFFF" }],
+    "strokes": { "w": 1, "color": "#E0E0E5" },
+    "layout": { "mode": "HORIZONTAL", "padL": 120, "padR": 120 },
+    "children": [
+      { "id": "22:931", "name": "BrandPattern", "decorative": true, "exportHint": "background-image" },
+      {
+        "id": "17:139",
+        "name": "Stat 1",
+        "stat": {
+          "number": "5",
+          "accent": "+",
+          "label": "Лідів/день в середньому"
+        }
+      },
+      { "id": "17:144", "name": "Divider 1", "fills": [{ "color": "#E0E0E5" }] },
+      {
+        "id": "17:145",
+        "name": "Stat 2",
+        "stat": {
+          "number": "1.8",
+          "accent": "%",
+          "label": "Середній CTR cold audience"
+        }
+      },
+      { "id": "17:150", "name": "Divider 2", "fills": [{ "color": "#E0E0E5" }] },
+      {
+        "id": "17:151",
+        "name": "Stat 3",
+        "stat": {
+          "number": "$3.59",
+          "accent": "",
+          "label": "Середній CPL"
+        }
+      },
+      { "id": "17:155", "name": "Divider 3", "fills": [{ "color": "#E0E0E5" }] },
+      {
+        "id": "17:156",
+        "name": "Stat 4",
+        "stat": {
+          "number": "12-36",
+          "accent": "h",
+          "label": "До першого ліда"
+        }
+      },
+      { "id": "22:1143", "name": "AccentLine", "decorative": true, "note": "blue 10% opacity bottom-right" }
+    ]
+  },
+  "patternDesign": {
+    "numberStyle": { "family": "Manrope", "variant": "ExtraBold", "size": "44px", "color": "#14141F" },
+    "accentStyle": { "color": "#2134EA", "description": "accent unit (+, %, h) in LP-blue. Note Stat 3 has no accent — full $-prefixed number" },
+    "labelStyle": { "family": "Manrope", "variant": "Regular", "size": "13px", "color": "#737385" },
+    "dividerStyle": { "color": "#E0E0E5", "width": "1px", "height": "48px", "note": "vertical divider between stats" },
+    "containerStyle": { "bg": "#FFFFFF", "border": "1px #E0E0E5 all sides", "height": "110px" }
+  }
+}
