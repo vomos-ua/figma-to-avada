@@ -1,0 +1,40 @@
+{
+  "node": "40:2",
+  "section": "AI Analytics",
+  "theme": "light",
+  "container": { "w": 1440, "h": 808, "bg": "#F7F8FA" },
+  "decoration": ["Glow", "BrandPattern (rows of small chevrons #2134EA)", "BigChevron (large #2134EA chevron right side)"],
+  "eyebrow": null,
+  "title": {
+    "text": "AI аналітика",
+    "fontSize": 56,
+    "weight": 800,
+    "lineHeight": 64,
+    "color": "#0D0D26"
+  },
+  "subtitle": {
+    "text": "Поєднуємо Matomo Analytics і AI Claude - аналізуємо поведінку, виявляємо проблеми на ранніх етапах і масштабуємо те, що працює.",
+    "fontSize": 18,
+    "weight": 400,
+    "lineHeight": 30,
+    "color": "#666B8C"
+  },
+  "layout": "split (left: vertical step list 560x90 cards; right: image placeholder 600x408)",
+  "steps": [
+    { "n": "01", "title": "Розгортаємо на ваш сайт аналітику Matomo" },
+    { "n": "02", "title": "Аналізуємо поведінку користувачів та формуємо детальний звіт" },
+    { "n": "03", "title": "Передаємо дані з аналітики та рекламного кабінету в Claude" },
+    { "n": "04", "title": "Отримуємо аналіз пророблений роботи та можливості масштабування" }
+  ],
+  "stepCard": {
+    "w": 560, "h": 90, "bg": "#FFFFFF", "radius": 12,
+    "badge": { "size": 40, "bg": "#2134EA", "textColor": "#FFFFFF", "fontSize": 14, "weight": 800 },
+    "text": { "fontSize": 15, "weight": 500, "lineHeight": 22, "color": "#0D0D26" }
+  },
+  "imageCard": {
+    "w": 600, "h": 408, "bg": "#F2F5FC", "radius": 16,
+    "placeholder": "IMAGE PLACEHOLDER · 4:3",
+    "promptLabel": "AI PROMPT",
+    "prompt": "Hierarchical flowchart diagram on light pale-blue gradient background. Top center: Claude AI logo (orange star/burst icon) in a white rounded card. Connected by lines below: two analytics cards side-by-side - Matomo Analytics (M logo, blue/orange) and Google Analytics (orange bar chart). Below them connected with plus signs: three ad platform cards - Meta Ads (blue infinity logo), Google Ads (multicolored arrow), LinkedIn Ads (blue 'in' logo). Soft drop shadows on each card. Clean B2B SaaS aesthetic. 4:3 ratio."
+  }
+}

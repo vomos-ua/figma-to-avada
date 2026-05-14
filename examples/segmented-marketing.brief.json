@@ -1,0 +1,66 @@
+{
+  "node": "35:1896",
+  "section": "Segmented Marketing",
+  "theme": "dark",
+  "container": { "w": 1440, "h": 1304, "bg": "#0D0D26" },
+  "decoration": ["Glow", "BrandPattern", "BigChevron", "Dots"],
+  "header": {
+    "title": "Сегментний маркетинг",
+    "titleColor": "#FFFFFF",
+    "body": "Паралельні сегменти за поведінкою користувача. Кожен сегмент має власний критерій входу, виключення і свій креатив.",
+    "bodyColor": "#9E9EBF"
+  },
+  "parallelSegments": {
+    "eyebrow": "ЯК ВЛАШТОВАНІ ПАРАЛЕЛЬНІ СЕГМЕНТИ",
+    "entry": {
+      "tag": "◯  СТАРТОВА ТОЧКА",
+      "title": "Холодна аудиторія · Campaign Video (awareness)",
+      "sub": "Video 1 хв · frequency cap 5x · ICP-таргетинг",
+      "bg": "#1A1A37"
+    },
+    "transitionNote": "трекаємо поведінку → автоматично розводимо в 3 паралельні сегменти",
+    "segments": [
+      {
+        "label": "SEGMENT 01",
+        "title": "Cold · сайт або Instagram",
+        "include": ["Visit site", "Instagram engagement"],
+        "exclude": ["Thank you page (конвертовані)"],
+        "creativeKind": "Audience-based video",
+        "creativeNote": "Інший кут, social proof"
+      },
+      {
+        "label": "SEGMENT 02",
+        "title": "Warm · 25-50% переглянутого відео",
+        "include": ["Watched 25-50% відео"],
+        "exclude": ["Thank you page", "Конвертовані"],
+        "creativeKind": "Explainer video",
+        "creativeNote": "Розʼяснення продукту, FAQ"
+      },
+      {
+        "label": "SEGMENT 03",
+        "title": "Hot · 50%+ відео або 60+ сек",
+        "include": ["Watched 50%+ відео", "Time on site 60+ сек"],
+        "exclude": ["Thank you page (конвертовані)"],
+        "creativeKind": "Direct offer + remarketing",
+        "creativeNote": "Прямий offer, demo, кейси"
+      }
+    ],
+    "footerNote": "↓ усі сегменти конвертують у воронку: Конверсія → Вебінар → Клієнт"
+  },
+  "logic": {
+    "eyebrow": "ЛОГІКА ВКЛЮЧЕНЬ І ВИКЛЮЧЕНЬ",
+    "body": "Кожен сегмент - це не тільки умови входу, але й виключення. Так бюджет не йде на тих, хто вже сконвертився або перенасичений рекламою.",
+    "include": {
+      "accent": "#269F64",
+      "tag": "✓ ВКЛЮЧЕННЯ",
+      "title": "Поведінкові тригери",
+      "body": "Час на сайті, кількість візитів, % переглянутого відео, відвідані сторінки, час з останнього візиту - кожен сигнал переводить користувача у відповідний сегмент."
+    },
+    "exclude": {
+      "accent": "#ED4F4F",
+      "tag": "✗ ВИКЛЮЧЕННЯ",
+      "title": "Що ріжемо з бюджету",
+      "body": "Конвертовані (вже зробили заявку), насичені (5+ переглядів того ж відео), перейшли у глибший сегмент - не показуємо їм холодну рекламу повторно."
+    }
+  }
+}

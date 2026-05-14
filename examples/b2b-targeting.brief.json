@@ -1,0 +1,52 @@
+{
+  "node": "22:615",
+  "section": "B2B Targeting (consolidated)",
+  "theme": "dark",
+  "container": { "w": 1440, "h": 1300, "bg": "#0D0D26" },
+  "decoration": ["Glow", "BrandPattern", "BigChevron", "Dots"],
+  "header": {
+    "eyebrow": "B2B ТАРГЕТИНГ",
+    "title": "Високоякісний B2B таргет\nдля вашого decision maker",
+    "titleColor": "#FFFFFF",
+    "body": "Перетворюємо ваш ICP на аудиторії для всіх каналів - з identity resolution і 5x кращим match rate без cookies. Охоплюйте ідеальних клієнтів у Facebook, LinkedIn, Google, YouTube, X.com - усуваючи марні витрати.",
+    "bodyColor": "#9E9EBF",
+    "ctas": [
+      { "kind": "primary", "text": "Переглянути приклад B2B бази →", "url": "/b2b-database/", "subLabel": "linked.promo/b2b-database" },
+      { "kind": "secondary", "text": "Детально про B2B бази →", "url": "/b2b-database/", "subLabel": "linked-promo.com/b2b-database/" }
+    ]
+  },
+  "statsRow": {
+    "topDivider": "#282846",
+    "bottomDivider": "#282846",
+    "stats": [
+      { "value": "700M+", "label": "Decision maker у базі" },
+      { "value": "30M+", "label": "компаній по всьому світу" },
+      { "value": "300+", "label": "фільтрів таргетингу" }
+    ]
+  },
+  "matchRate": {
+    "eyebrow": "КОЕФІЦІЄНТ ВІДПОВІДНОСТІ - REAL DATA",
+    "paragraphs": [
+      "Match rate - це відсоток вашої аудиторії, який платформа реально знаходить серед своїх користувачів після завантаження CRM-списку. Низький match rate = марні витрати на людей, які не побачать рекламу.",
+      "Наша identity resolution технологія дає до 5x кращі показники без cookies - дані збираємо безпосередньо з decision maker, а не покладаємось на тригери браузера."
+    ],
+    "platforms": [
+      { "name": "LinkedIn", "badge": "in", "badgeBg": "#0077B5", "value": "75-90%", "fill": 82, "barTrack": "#282846", "barFill": "#2134EA" },
+      { "name": "Facebook / Meta", "badge": "Fb", "badgeBg": "#1877F2", "value": "45-65%", "fill": 55 },
+      { "name": "X.com (Twitter)", "badge": "X", "badgeBg": "#14141C", "value": "45-65%", "fill": 55 },
+      { "name": "Google Search", "badge": "G", "badgeBg": "#F84646", "value": "35-45%", "fill": 40 },
+      { "name": "Google Display", "badge": "GD", "badgeBg": "#269F64", "value": "35-45%", "fill": 40 },
+      { "name": "YouTube", "badge": "YT", "badgeBg": "#ED1D26", "value": "35-45%", "fill": 40 }
+    ]
+  },
+  "uploadColumn": {
+    "eyebrow": "АУДИТОРІЇ РЕТАРГЕТИНГУ",
+    "title": "Завантажуйте кастомні аудиторії з незрівнянним match rate",
+    "ctrNote": { "value": "≈ 4%", "label": "CTR на медійну рекламу - вище за нішу", "bg": "#1A1A37" },
+    "buttons": [
+      "LinkedIn Audience Upload",
+      "Facebook / Meta Audience Upload",
+      "Google + X.com Audience Upload"
+    ]
+  }
+}

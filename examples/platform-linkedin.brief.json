@@ -1,0 +1,39 @@
+{
+  "node": "42:118",
+  "section": "Platform 01: LinkedIn Ads",
+  "theme": "dark",
+  "position": "01 / 03",
+  "container": { "w": 1440, "h": 1000, "bg": "#0D0D26" },
+  "decoration": ["Glow", "BrandPattern", "BigChevron"],
+  "eyebrow": { "text": "РЕКЛАМНА ПЛАТФОРМА · 01 / 03", "color": "#2134EA" },
+  "title": { "text": "LinkedIn Ads", "fontSize": 64, "weight": 800, "color": "#FFFFFF" },
+  "subtitle": { "text": "Точний B2B-таргетинг по decision makers", "fontSize": 26, "weight": 800, "color": "#2134EA" },
+  "body": {
+    "text": "Працює для B2B-компаній, яким важливо виходити на конкретних decision makers. Таргетуємо за посадами, функціями, індустріями, розміром компанії - точніше працюємо з вузькою аудиторією, просуваємо складні B2B-продукти та залучаємо релевантні контакти.",
+    "color": "#9E9EBF"
+  },
+  "chipCard": { "bg": "#1A1A37", "labelColor": "#6B6B94", "valueColor": "#FFFFFF" },
+  "chips": [
+    { "label": "РІВЕНЬ ВОРОНКИ", "value": "Top + Middle" },
+    { "label": "BEST FOR CPA", "value": "$30+ якісні B2B-ліди" },
+    { "label": "ОСНОВНІ ФОРМАТИ", "value": "Sponsored Content, Message, Lead Gen" }
+  ],
+  "adCard": { "bg": "#1A1A37", "imgPlaceholderBg": "#12122E", "titleColor": "#FFFFFF", "descColor": "#9E9EBF" },
+  "ads": [
+    {
+      "title": "Thought Leader Ads",
+      "desc": "Просування постів від імені реальних співробітників компанії - підвищує довіру в B2B сегменті.",
+      "imgSlug": "linkedin-thought-leader"
+    },
+    {
+      "title": "Conversation Ads",
+      "desc": "Інтерактивні повідомлення в Messenger з кнопками-варіантами відповідей. Імітують діалог.",
+      "imgSlug": "linkedin-conversation"
+    },
+    {
+      "title": "Document Ads",
+      "desc": "Формат, який дозволяє користувачам завантажувати кейси, прайси, гайди безпосередньо з оголошення.",
+      "imgSlug": "linkedin-document"
+    }
+  ]
+}

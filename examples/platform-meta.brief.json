@@ -1,0 +1,39 @@
+{
+  "node": "42:267",
+  "section": "Platform 2: Meta Ads",
+  "theme": "light",
+  "position": "02 / 03",
+  "container": { "w": 1440, "bg": "#F7F8FA" },
+  "decoration": ["Glow", "BrandPattern", "BigChevron"],
+  "eyebrow": { "text": "РЕКЛАМНА ПЛАТФОРМА · 02 / 03", "color": "#2134EA" },
+  "title": { "text": "Meta Ads", "fontSize": 64, "weight": 800, "color": "#0D0D26" },
+  "subtitle": { "text": "Ретаргетинг і Lookalike для B2B", "fontSize": 26, "weight": 800, "color": "#2134EA" },
+  "body": {
+    "text": "Ефективна як другий рівень воронки: ретаргетинг відвідувачів сайту, Lookalike на базі існуючих клієнтів і brand awareness для нагрівання аудиторії. Працюємо із завантаженням CRM-списків, схожих аудиторій та лід-форм безпосередньо в стрічці.",
+    "color": "#666B8C"
+  },
+  "chipCard": { "bg": "#FFFFFF", "labelColor": "#8C91A6", "valueColor": "#0D0D26" },
+  "chips": [
+    { "label": "РІВЕНЬ ВОРОНКИ", "value": "Middle + Bottom" },
+    { "label": "BEST FOR CPA", "value": "$10-25 теплі ліди + retarget" },
+    { "label": "ОСНОВНІ ФОРМАТИ", "value": "Image/Video, Carousel, Lead Gen" }
+  ],
+  "adCard": { "bg": "#FFFFFF", "imgPlaceholderBg": "#F2F5FC", "titleColor": "#0D0D26", "descColor": "#666B8C" },
+  "ads": [
+    {
+      "title": "Targeted Image/Video Ads",
+      "desc": "Класичні оголошення у стрічці, Stories і Reels - презентують продукт або кейс конкретній цільовій аудиторії.",
+      "imgSlug": "meta-targeted"
+    },
+    {
+      "title": "Carousel Ads",
+      "desc": "Формат з кількома картками (зображеннями чи відео) в одному оголошенні - ідеальний для лінійки features або етапів послуги.",
+      "imgSlug": "meta-carousel"
+    },
+    {
+      "title": "Lead Generation Ads",
+      "desc": "Вбудовані форми збору контактів прямо всередині соцмережі - отримуємо ліди без переходу на сайт.",
+      "imgSlug": "meta-lead-gen"
+    }
+  ]
+}
