@@ -1,0 +1,125 @@
+[fusion_builder_container type="flex" hundred_percent="no" hundred_percent_height="no" flex_align_items="center" flex_justify_content="flex-start" hide_on_mobile="small-visibility,medium-visibility,large-visibility" background_color="#F7F8FA" padding_top="80px" padding_bottom="40px" padding_left="120px" padding_right="120px" padding_top_small="60px" padding_bottom_small="32px" padding_left_small="20px" padding_right_small="20px"]
+[fusion_builder_row]
+[fusion_builder_column type="1_1" layout="1_1" first="true" last="true" align_self="flex-start" padding_top="0" padding_right="0" padding_bottom="0" padding_left="0" background_blend_mode="overlay" hover_type="none" border_position="all" min_height="" link=""]
+[fusion_title size="6" font_size="12px" text_transform="uppercase" letter_spacing="0.14em" text_color="#2134EA" content_align="left" style_type="default" margin_bottom="12px" animation_type="fade" animation_direction="up" animation_speed="0.3" animation_delay="0" fusion_font_family_title_font="Manrope" fusion_font_variant_title_font="600"]КЕЙСИ КЛІЄНТІВ[/fusion_title]
+[fusion_title size="2" font_size="48px" line_height="56px" text_color="#0D0D26" content_align="left" style_type="default" margin_bottom="16px" animation_type="fade" animation_direction="up" animation_speed="0.3" animation_delay="0.05" fusion_font_family_title_font="Manrope" fusion_font_variant_title_font="800"]Реальні результати наших клієнтів[/fusion_title]
+[fusion_text font_size="18px" line_height="28px" text_color="#666B8C" content_alignment="left" max_width="700px" margin_bottom="0" animation_type="fade" animation_direction="up" animation_speed="0.3" animation_delay="0.1" fusion_font_family_text_font="Manrope" fusion_font_variant_text_font="400"]
+
+Кейси B2B-кампаній з paid-каналів: ліди, реєстрації, CPL і ROI. Кожен бренд має власний контекст - але механіка повторюється.
+
+[/fusion_text]
+[/fusion_builder_column]
+[/fusion_builder_row]
+[/fusion_builder_container]
+
+[fusion_builder_container type="flex" hundred_percent="no" hundred_percent_height="no" flex_align_items="center" flex_justify_content="flex-start" hide_on_mobile="small-visibility,medium-visibility,large-visibility" background_color="#F7F8FA" padding_top="0" padding_bottom="32px" padding_left="120px" padding_right="120px" padding_top_small="0" padding_bottom_small="24px" padding_left_small="20px" padding_right_small="20px"]
+[fusion_builder_row]
+[fusion_builder_column type="1_1" layout="1_1" first="true" last="true" align_self="flex-start" background_color="#2134EA" border_radius_top_left="24px" border_radius_top_right="24px" border_radius_bottom_left="24px" border_radius_bottom_right="24px" padding_top="64px" padding_right="64px" padding_bottom="64px" padding_left="64px" padding_top_small="40px" padding_right_small="32px" padding_bottom_small="40px" padding_left_small="32px" animation_type="fade" animation_direction="up" animation_speed="0.3" animation_delay="0.15" background_blend_mode="overlay" hover_type="none" border_position="all" min_height="" link=""]
+[fusion_builder_row_inner]
+[fusion_builder_column_inner type="1_2" layout="1_2" first="true" last="false" align_self="center" padding_top="0" padding_right="40px" padding_bottom="0" padding_left="0" padding_right_small="0" background_blend_mode="overlay" hover_type="none" border_position="all" min_height="" link=""]
+[fusion_title size="6" font_size="12px" text_transform="uppercase" letter_spacing="0.18em" text_color="rgba(255,255,255,0.7)" content_align="left" style_type="default" margin_bottom="20px" fusion_font_family_title_font="Manrope" fusion_font_variant_title_font="700"]AOS · B2B · CREATIVE EVENTS · MENA[/fusion_title]
+[fusion_title size="2" font_size="48px" line_height="56px" text_color="#FFFFFF" content_align="left" style_type="default" margin_bottom="20px" fusion_font_family_title_font="Manrope" fusion_font_variant_title_font="800"]Від 0 до 191 ліда
+за 6 тижнів.[/fusion_title]
+[fusion_text font_size="16px" line_height="26px" text_color="rgba(255,255,255,0.85)" content_alignment="left" margin_bottom="32px" max_width="500px" fusion_font_family_text_font="Manrope" fusion_font_variant_text_font="400"]
+
+Nova Studio - B2B креативна студія для подій B2B-індустрії OOH (наративні assets, креативи і відео-стиль) у клієнтів. Запустили в кампанії на цільову аудиторію Європи та Близького Сходу. Перший Aos - всередині перше тижнями, стабільний CPL у перший тиждень.
+
+[/fusion_text]
+[fusion_button link="https://linked-promo.com/contact/" text_transform="none" target="_blank" alignment="left" hide_on_mobile="small-visibility,medium-visibility,large-visibility" type="flat" size="large" stretch="default" color="custom" button_gradient_top_color="#FFFFFF" button_gradient_bottom_color="#FFFFFF" button_gradient_top_color_hover="#F5F6FA" button_gradient_bottom_color_hover="#F5F6FA" accent_color="#2134EA" accent_hover_color="#1A2BC0" border_color="#FFFFFF" border_hover_color="#FFFFFF" border_radius_top_left="8px" border_radius_top_right="8px" border_radius_bottom_right="8px" border_radius_bottom_left="8px"]Хочу такий самий результат →[/fusion_button]
+[/fusion_builder_column_inner]
+[fusion_builder_column_inner type="1_2" layout="1_2" first="false" last="true" align_self="center" padding_top="0" padding_right="0" padding_bottom="0" padding_left="0" background_blend_mode="overlay" hover_type="none" border_position="all" min_height="" link=""]
+[fusion_builder_row_inner]
+[fusion_builder_column_inner type="1_2" layout="1_2" first="true" last="false" align_self="flex-start" padding_top="0" padding_right="20px" padding_bottom="32px" padding_left="0" background_blend_mode="overlay" hover_type="none" border_position="all" min_height="" link=""]
+[fusion_title size="1" font_size="72px" line_height="80px" text_color="#FFFFFF" content_align="left" style_type="default" margin_bottom="8px" fusion_font_family_title_font="Manrope" fusion_font_variant_title_font="800"]191[/fusion_title]
+[fusion_text font_size="11px" line_height="16px" text_color="rgba(255,255,255,0.7)" content_alignment="left" margin_bottom="0" fusion_font_family_text_font="Manrope" fusion_font_variant_text_font="600"]
+
+ЛІДІВ ЗА 6 ТИЖНІВ
+
+[/fusion_text]
+[/fusion_builder_column_inner]
+[fusion_builder_column_inner type="1_2" layout="1_2" first="false" last="true" align_self="flex-start" padding_top="0" padding_right="0" padding_bottom="32px" padding_left="20px" background_blend_mode="overlay" hover_type="none" border_position="all" min_height="" link=""]
+[fusion_title size="1" font_size="72px" line_height="80px" text_color="#FFFFFF" content_align="left" style_type="default" margin_bottom="8px" fusion_font_family_title_font="Manrope" fusion_font_variant_title_font="800"]€7[/fusion_title]
+[fusion_text font_size="11px" line_height="16px" text_color="rgba(255,255,255,0.7)" content_alignment="left" margin_bottom="0" fusion_font_family_text_font="Manrope" fusion_font_variant_text_font="600"]
+
+ВАРТІСТЬ 1 ЛІДА
+
+[/fusion_text]
+[/fusion_builder_column_inner]
+[fusion_builder_column_inner type="1_2" layout="1_2" first="true" last="false" align_self="flex-start" padding_top="0" padding_right="20px" padding_bottom="0" padding_left="0" background_blend_mode="overlay" hover_type="none" border_position="all" min_height="" link=""]
+[fusion_title size="1" font_size="72px" line_height="80px" text_color="#FFFFFF" content_align="left" style_type="default" margin_bottom="8px" fusion_font_family_title_font="Manrope" fusion_font_variant_title_font="800"]23[/fusion_title]
+[fusion_text font_size="11px" line_height="16px" text_color="rgba(255,255,255,0.7)" content_alignment="left" margin_bottom="0" fusion_font_family_text_font="Manrope" fusion_font_variant_text_font="600"]
+
+[TBD] ЯКАСЬ МЕТРИКА #3
+
+[/fusion_text]
+[/fusion_builder_column_inner]
+[fusion_builder_column_inner type="1_2" layout="1_2" first="false" last="true" align_self="flex-start" padding_top="0" padding_right="0" padding_bottom="0" padding_left="20px" background_blend_mode="overlay" hover_type="none" border_position="all" min_height="" link=""]
+[fusion_title size="1" font_size="72px" line_height="80px" text_color="#FFFFFF" content_align="left" style_type="default" margin_bottom="8px" fusion_font_family_title_font="Manrope" fusion_font_variant_title_font="800"]1.8%[/fusion_title]
+[fusion_text font_size="11px" line_height="16px" text_color="rgba(255,255,255,0.7)" content_alignment="left" margin_bottom="0" fusion_font_family_text_font="Manrope" fusion_font_variant_text_font="600"]
+
+[TBD] ЯКАСЬ МЕТРИКА #4
+
+[/fusion_text]
+[/fusion_builder_column_inner]
+[/fusion_builder_row_inner]
+[/fusion_builder_column_inner]
+[/fusion_builder_row_inner]
+[/fusion_builder_column]
+[/fusion_builder_row]
+[/fusion_builder_container]
+
+[fusion_builder_container type="flex" hundred_percent="no" hundred_percent_height="no" flex_align_items="center" flex_justify_content="flex-start" hide_on_mobile="small-visibility,medium-visibility,large-visibility" background_color="#F7F8FA" padding_top="0" padding_bottom="80px" padding_left="120px" padding_right="120px" padding_top_small="0" padding_bottom_small="60px" padding_left_small="20px" padding_right_small="20px"]
+[fusion_builder_row]
+[fusion_builder_column type="1_1" layout="1_1" first="true" last="true" align_self="flex-start" background_color="#2134EA" border_radius_top_left="24px" border_radius_top_right="24px" border_radius_bottom_left="24px" border_radius_bottom_right="24px" padding_top="64px" padding_right="64px" padding_bottom="64px" padding_left="64px" padding_top_small="40px" padding_right_small="32px" padding_bottom_small="40px" padding_left_small="32px" animation_type="fade" animation_direction="up" animation_speed="0.3" animation_delay="0.15" background_blend_mode="overlay" hover_type="none" border_position="all" min_height="" link=""]
+[fusion_builder_row_inner]
+[fusion_builder_column_inner type="1_2" layout="1_2" first="true" last="false" align_self="center" padding_top="0" padding_right="40px" padding_bottom="0" padding_left="0" padding_right_small="0" background_blend_mode="overlay" hover_type="none" border_position="all" min_height="" link=""]
+[fusion_title size="6" font_size="12px" text_transform="uppercase" letter_spacing="0.18em" text_color="rgba(255,255,255,0.7)" content_align="left" style_type="default" margin_bottom="20px" fusion_font_family_title_font="Manrope" fusion_font_variant_title_font="700"]USDT · B2C · WEBINAR · EXHIBITION DESIGN[/fusion_title]
+[fusion_title size="2" font_size="48px" line_height="56px" text_color="#FFFFFF" content_align="left" style_type="default" margin_bottom="20px" fusion_font_family_title_font="Manrope" fusion_font_variant_title_font="800"]Від 0 до 97 реєстрацій
+за 14 днів.[/fusion_title]
+[fusion_text font_size="16px" line_height="26px" text_color="rgba(255,255,255,0.85)" content_alignment="left" margin_bottom="32px" max_width="500px" fusion_font_family_text_font="Manrope" fusion_font_variant_text_font="400"]
+
+Вебінар на залучення лідів для USDT-аудиторії. Запустили 4 паралельних Meta-кампанії з варіаціями креативів на 4-денну сценарну воронку. 1 day ставлення = 28 реєстрацій. 25 учасників з'явились на live - оплатили 16.
+
+[/fusion_text]
+[fusion_button link="https://linked-promo.com/contact/" text_transform="none" target="_blank" alignment="left" hide_on_mobile="small-visibility,medium-visibility,large-visibility" type="flat" size="large" stretch="default" color="custom" button_gradient_top_color="#FFFFFF" button_gradient_bottom_color="#FFFFFF" button_gradient_top_color_hover="#F5F6FA" button_gradient_bottom_color_hover="#F5F6FA" accent_color="#2134EA" accent_hover_color="#1A2BC0" border_color="#FFFFFF" border_hover_color="#FFFFFF" border_radius_top_left="8px" border_radius_top_right="8px" border_radius_bottom_right="8px" border_radius_bottom_left="8px"]Хочу такий самий результат →[/fusion_button]
+[/fusion_builder_column_inner]
+[fusion_builder_column_inner type="1_2" layout="1_2" first="false" last="true" align_self="center" padding_top="0" padding_right="0" padding_bottom="0" padding_left="0" background_blend_mode="overlay" hover_type="none" border_position="all" min_height="" link=""]
+[fusion_builder_row_inner]
+[fusion_builder_column_inner type="1_2" layout="1_2" first="true" last="false" align_self="flex-start" padding_top="0" padding_right="20px" padding_bottom="32px" padding_left="0" background_blend_mode="overlay" hover_type="none" border_position="all" min_height="" link=""]
+[fusion_title size="1" font_size="72px" line_height="80px" text_color="#FFFFFF" content_align="left" style_type="default" margin_bottom="8px" fusion_font_family_title_font="Manrope" fusion_font_variant_title_font="800"]97[/fusion_title]
+[fusion_text font_size="11px" line_height="16px" text_color="rgba(255,255,255,0.7)" content_alignment="left" margin_bottom="0" fusion_font_family_text_font="Manrope" fusion_font_variant_text_font="600"]
+
+РЕЄСТРАЦІЙ
+
+[/fusion_text]
+[/fusion_builder_column_inner]
+[fusion_builder_column_inner type="1_2" layout="1_2" first="false" last="true" align_self="flex-start" padding_top="0" padding_right="0" padding_bottom="32px" padding_left="20px" background_blend_mode="overlay" hover_type="none" border_position="all" min_height="" link=""]
+[fusion_title size="1" font_size="72px" line_height="80px" text_color="#FFFFFF" content_align="left" style_type="default" margin_bottom="8px" fusion_font_family_title_font="Manrope" fusion_font_variant_title_font="800"]$3.59[/fusion_title]
+[fusion_text font_size="11px" line_height="16px" text_color="rgba(255,255,255,0.7)" content_alignment="left" margin_bottom="0" fusion_font_family_text_font="Manrope" fusion_font_variant_text_font="600"]
+
+ВАРТІСТЬ 1 ЛІДА
+
+[/fusion_text]
+[/fusion_builder_column_inner]
+[fusion_builder_column_inner type="1_2" layout="1_2" first="true" last="false" align_self="flex-start" padding_top="0" padding_right="20px" padding_bottom="0" padding_left="0" background_blend_mode="overlay" hover_type="none" border_position="all" min_height="" link=""]
+[fusion_title size="1" font_size="72px" line_height="80px" text_color="#FFFFFF" content_align="left" style_type="default" margin_bottom="8px" fusion_font_family_title_font="Manrope" fusion_font_variant_title_font="800"]293K[/fusion_title]
+[fusion_text font_size="11px" line_height="16px" text_color="rgba(255,255,255,0.7)" content_alignment="left" margin_bottom="0" fusion_font_family_text_font="Manrope" fusion_font_variant_text_font="600"]
+
+[TBD] ОХОПЛЕННЯ?
+
+[/fusion_text]
+[/fusion_builder_column_inner]
+[fusion_builder_column_inner type="1_2" layout="1_2" first="false" last="true" align_self="flex-start" padding_top="0" padding_right="0" padding_bottom="0" padding_left="20px" background_blend_mode="overlay" hover_type="none" border_position="all" min_height="" link=""]
+[fusion_title size="1" font_size="72px" line_height="80px" text_color="#FFFFFF" content_align="left" style_type="default" margin_bottom="8px" fusion_font_family_title_font="Manrope" fusion_font_variant_title_font="800"]25[/fusion_title]
+[fusion_text font_size="11px" line_height="16px" text_color="rgba(255,255,255,0.7)" content_alignment="left" margin_bottom="0" fusion_font_family_text_font="Manrope" fusion_font_variant_text_font="600"]
+
+[TBD] ВІДВІДУВАЧІВ LIVE?
+
+[/fusion_text]
+[/fusion_builder_column_inner]
+[/fusion_builder_row_inner]
+[/fusion_builder_column_inner]
+[/fusion_builder_row_inner]
+[/fusion_builder_column]
+[/fusion_builder_row]
+[/fusion_builder_container]
