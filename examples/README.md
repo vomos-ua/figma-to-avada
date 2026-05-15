@@ -6,52 +6,51 @@ permalink: ai/figma-to-avada/examples/readme-1
 
 # examples/
 
-End-to-end pipeline outputs from the FAQ block of PPC Landing v2 (`linked-promo.com` Figma).
+Per-section paste-ready Avada shortcodes for **PPC Landing v2** (`linked-promo.com`).
 
-## Files
+These files mirror the production-edited final at `D:\AI\Linked Promo\docs\Avada\ppc-landing-final-shortcode.txt` (Володимир's hand-corrected version, source of truth as of 2026-05-15).
 
-| File | What it is |
-|---|---|
-| `faq-block.brief.json` | Extractor output (abbreviated). Real one is 14k chars, this is a readable subset. |
-| `faq-block.shortcode.txt` | Generator output. **Paste-ready** Avada Code View. No fixtures, no fake URLs. |
+## Files (16 sections, top → bottom on the page)
 
-## What this proves
+| # | File | Purpose |
+|---|---|---|
+| 01 | `01-hero.shortcode.txt` | Dark hero: H1 + CTA pair + dashboard image |
+| 02 | `02-stats-strip.shortcode.txt` | White strip with 4 KPIs (5+ / 1.8% / $3.59 / 12-36h) |
+| 03 | `03-advantages.shortcode.txt` | "Наші переваги" - 4 cards with FA icons |
+| 04 | `04-b2b-targeting.shortcode.txt` | B2B targeting + match rate bars + audience upload buttons |
+| 05 | `05-cross-channel.shortcode.txt` | Cross-channel remarketing - 4 user-path cards + impact stats |
+| 06 | `06-segmented-marketing.shortcode.txt` | Segmented marketing: Cold / Warm / Hot segments + include/exclude logic |
+| 07 | `07-ai-analytics.shortcode.txt` | AI analytics 4-step flow + diagram image |
+| 08 | `08-platform-linkedin.shortcode.txt` | Platform 01/03 - LinkedIn Ads (3 ad-format cards) |
+| 09 | `09-platform-meta.shortcode.txt` | Platform 02/03 - Meta Ads |
+| 10 | `10-platform-google.shortcode.txt` | Platform 03/03 - Google Ads |
+| 11 | `11-how-we-work.shortcode.txt` | "Як ми працюємо" - 6 process steps |
+| 12 | `12-faq-header.shortcode.txt` | FAQ section header |
+| 13 | `13-faq-pair-1.shortcode.txt` | FAQ Q&A pair (2 cards in row) |
+| 14 | `14-faq-pair-2.shortcode.txt` | FAQ Q&A pair |
+| 15 | `15-faq-pair-3.shortcode.txt` | FAQ Q&A pair |
+| 16 | `16-final-cta.shortcode.txt` | Final CTA "Запуск за 14 днів" |
 
-Hand-traced the full pipeline:
+For paste-the-whole-page, use `output/ppc-landing-v2-all.shortcode.txt` (concatenation of all 16 in order).
 
-```
-Figma FAQ (node 62:2)
-  → extractor (via Bridge MCP) → brief JSON (14k chars, no decorative noise)
-  → KB: core-reference + lp-design-tokens + faq-grid-2x3 pattern
-  → generator → shortcode.txt (above)
-```
+## Brief / illustration helpers
 
-The shortcode in `faq-block.shortcode.txt` corresponds exactly to what we built in Figma:
+- `*.brief.json` - extractor output for individual sections (kept for reference)
+- `*.illustration-prompt.md` - ChatGPT-Image prompts for AI-generated section illustrations
 
-- Container 1440px wide, NAVY `#0D0D26` background, 100px vertical + 120px side padding
-- Header row: BLUE eyebrow + WHITE 48px headline + 60%-white 18px body, all centered
-- 3 rows × 2 columns of FAQ cards (Avada doesn't auto-wrap, so 3 separate rows)
-- Each card: 16px radius, 1px soft-white border, 4%-white fill, 32px padding
-- Inside card: BLUE number badge → WHITE 20px question → 60%-white 14px answer
-- Manrope font family enforced via `fusion_font_family_*_font="Manrope"`
-- Subtle fade-up animation on header + staggered animation_delay on cards
+## Sections that need image inserts (manual via Avada Builder)
 
-## What's missing (vs Figma)
+Per Figma update 2026-05-15:
+- `05-cross-channel`: Володимир will split single-column row into 1/2 + 1/2 in Builder, drop `cross-channel-illustration.webp` into the right column
+- `06-segmented-marketing`: same — Володимир places `segmented-marketing-illustration.webp` to the right of the include/exclude block
 
-- **Decorative glow + chevron pattern**: not rendered. Generator emits container without background_image. To match Figma exactly, Володимир would composite the 2 glow ellipses + chevron pattern into a single PNG via Figma export, upload to WP, then we'd add `background_image="https://..."` to the container.
-- **Exact glow positioning**: Avada `background_position` is limited. Real-pixel placement requires custom CSS in child theme.
+## Paste workflow
 
-## Sanity check before paste
+1. Open WP → Pages → Add New → Avada Live Builder
+2. Toggle **Code View** (`</>` icon)
+3. Paste contents of one section file (or the full `ppc-landing-v2-all.shortcode.txt`)
+4. Save → Preview
 
-Володимир should verify:
+## Stale code archive
 
-1. Open `faq-block.shortcode.txt` in any text editor
-2. Confirm: no newlines INSIDE individual shortcode tags (multi-line params are killed by Avada parser)
-3. Confirm: all `animation_delay` values look like `"0.1"`, `"0.2"` — never `"100"` or `"200"`
-4. Paste into WP → Pages → Add New → Avada Live Builder → Toggle Code View → paste → Save → Preview
-
-If layout breaks: most likely cause is missing `first="true"` / `last="true"` on column ends. Each row must have exactly one `first="true"` (the leftmost column) and one `last="true"` (the rightmost). For single-column rows both flags on same column.
-
-## Phase 3 next step
-
-Generate the same way for other PPC Landing blocks: Stats Strip, How We Work, Final CTA. Add patterns to `kb/patterns/` as new templates emerge.
+Pre-2026-05-15 examples (PR-quality but pre-final-edit) moved to `0===backup/old-examples-v1/`. Do not paste from there.

@@ -35,6 +35,12 @@ Internal LP tool: Figma → Avada Fusion Builder shortcodes.
     - **Hero top padding:** `padding_top="150px"` (NOT 100px) to clear the fixed navbar on linked-promo.com.
     - These aren't required for first-time paste to render — but if you re-emit a previously edited page, NOT matching this format will spam diffs and confuse Володимир.
 
+15. **Anchor link target = `menu_anchor="<id>"` ATTRIBUTE on the container, NOT a separate `[fusion_anchor_link name="..." /]` shortcode inside a column.** The standalone shortcode renders as visible text (literal `[fusion_anchor_link name="..." /]` shows on the page) when placed inside a column with other content. Always set the anchor as an attribute on `[fusion_builder_container ... menu_anchor="advantages"]`. Burned us in PPC-landing v2 Phase 5 — Володимир saw `[fusion_anchor_link name="advantages" /]` as visible text in the left column of Advantages section.
+
+16. **NO `background_image` on light/white strip sections that overlay LP chevron pattern.** The chevron BG asset (`stats-strip-bg.webp`, similar) bleeds through white/light containers as visible noise — looks like screen artifacts on the live site. Light strips (stats, advantages light variant) MUST use plain `background_color="#FFFFFF"` or `#F7F8FA` with NO `background_image`. The pattern is fine on dark `#0D0D26` containers where it's intentional decoration. Burned us in PPC-landing v2 stats-strip — chevrons visible through white CSS.
+
+17. **NEVER invent external URLs. Use real URLs Володимир supplies, or `#` placeholder.** Do not fabricate URLs like `linked-promo.com/b2b-database/?audience=linkedin` from pattern-matching — they don't exist and the buttons lead to 404. If brief.json doesn't contain the URL, ask Володимир or emit `link="#"` with a `<!-- TODO: real URL -->` adjacent. Real B2B audience upload buttons go to specific Google Sheets gids: `docs.google.com/spreadsheets/d/1Yt0MfsrT2B_XCbGmiUUordd5uL6XYlaP8OM4S4_Jxks/edit?gid=...`. Burned in PPC-landing v2 B2B Targeting section.
+
 ## Pipeline overview
 
 ```

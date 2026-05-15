@@ -6,3 +6,4 @@ output/*
 .DS_Store
 *.log
 .tmp/
+0===backup/
